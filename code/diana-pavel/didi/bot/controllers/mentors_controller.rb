@@ -1,0 +1,2 @@
+class MentorsController < BotController
+end
