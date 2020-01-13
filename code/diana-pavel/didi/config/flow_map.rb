@@ -4,6 +4,7 @@ class FlowMap
 
   flow :hello do
     state :say_hello
+    state :select_type
   end
 
   flow :goodbye do

@@ -1,2 +1,11 @@
 - reply_type: text
-  text: Hi there! Thank you for deciding to join Workals. Before we start I'd like to let you know that I'm a bot, so if there are any problems or you have any suggestions you can email my maker, Diana, at diana@workals.com.  Are you ready to start?
+  text: "Hi there! Thank you for deciding to join Workals.
+  Before we start I'd like to let you know that I'm a bot, so if there are any problems or you have any suggestions you can email my maker, Diana, at diana@workals.com."
+  - reply_type: delay
+  duration: 2
+  - reply_type: text
+  text: "What would you like to register as?"
+  suggestions:
+    - text: "Mentor"
+    - text: "Mentee"
+    - text: "Both"
