@@ -1,0 +1,2 @@
+class Both < BotRecord
+end
