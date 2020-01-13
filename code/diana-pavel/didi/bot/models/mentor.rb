@@ -1,0 +1,2 @@
+class Mentor < BotRecord
+end

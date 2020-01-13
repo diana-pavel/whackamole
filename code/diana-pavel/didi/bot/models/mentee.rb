@@ -1,0 +1,2 @@
+class Mentee < BotRecord
+end
