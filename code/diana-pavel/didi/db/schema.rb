@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_13_162605) do
+ActiveRecord::Schema.define(version: 2020_01_13_175407) do
+
+  create_table "boths", force: :cascade do |t|
+  end
 
   create_table "mentees", force: :cascade do |t|
   end
