@@ -1,0 +1,8 @@
+ - reply_type: delay
+  duration: 2
+  - reply_type: text
+  text: "What would you like to register as? Type your answer"
+  suggestions:
+    - text: "Mentor"
+    - text: "Mentee"
+    - text: "Both"
