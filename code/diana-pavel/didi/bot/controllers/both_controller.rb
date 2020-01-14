@@ -1,2 +1,0 @@
-class BothController < BotController
-end

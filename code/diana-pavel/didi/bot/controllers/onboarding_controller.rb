@@ -1,2 +1,0 @@
-class OnboardingController < BotController
-end

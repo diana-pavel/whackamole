@@ -1,2 +1,0 @@
-class Both < BotRecord
-end
