@@ -1,0 +1,13 @@
+ - reply_type: delay
+  duration: dynamic
+  - reply_type: text
+  text: "You're doing great, <%= current_user.name.capitalize %>!Thank you for helping us to make the tech industry better."
+
+- reply_type: delay
+  duration: dynamic
+  - reply_type: text
+text: "How much time do you think you would be able to dedicate to mentoring every week? We will work around your availability, of course, and understand that some weeks you might not be available at all:"
+suggestions:
+  - text: '1 hour (one mentee)'
+  - text: '2 hours (two mentees)'
+  - text: 'Other'

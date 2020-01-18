@@ -1,5 +1,5 @@
  - reply_type: delay
-  duration: 2
+  duration: dynamic
   - reply_type: text
   text: "What would you like to register as? Type your answer"
   suggestions:

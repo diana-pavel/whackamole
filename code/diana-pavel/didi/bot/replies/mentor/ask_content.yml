@@ -1,0 +1,8 @@
+- reply_type: delay
+  duration: dynamic
+  - reply_type: text
+  text: "We want to create genuine, helpful tips and advice for our junior developers that goes beyond 1-to-1 mentorship."
+- reply_type: delay
+  duration: dynamic
+  - reply_type: text
+  text: "Are you available to write content, share existing content, be featured on our website, or be interviewed? We're open to suggestions :)"

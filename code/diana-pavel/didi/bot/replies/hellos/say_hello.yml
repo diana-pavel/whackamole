@@ -1,6 +1,6 @@
 - reply_type: text
   text: "Hi there! Thank you for deciding to join Workals."
   - reply_type: delay
-  duration: 2
+  duration: dynamic
   - reply_type: text
   "Before we start I'd like to let you know that I'm a bot, so if there are any problems or you have any suggestions you can email my maker, Diana, at diana@workals.com."

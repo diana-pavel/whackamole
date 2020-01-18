@@ -24,8 +24,16 @@ class MentorsController < BotController
   end
 
   def get_title
-    update_session_to state: 'ask_social'
+    update_session_to state: 'ask_company'
   end
+
+  def ask_company
+    send_replies
+    update_session_to state: 'get_company'
+  end
+
+  def get_company
+    update_session_to state: 'ask_social'
 
   def ask_social
     send_replies
@@ -60,24 +68,6 @@ class MentorsController < BotController
   end
 
   def get_content
-    update_session_to state: 'ask_mentor'
-  end
-
-  def ask_mentor
-    send_replies
-    update_session_to state: 'get_mentor'
-  end
-
-  def get_mentor
-    update_session_to state: 'ask_help_with'
-  end
-
-  def ask_help_with
-    send_replies
-    update_session_to state: 'get_help_with'
-  end
-
-  def get_help_with
     update_session_to state: 'ask_comments'
   end
 

@@ -1,0 +1,14 @@
+- reply_type: delay
+  duration: dynamic
+  - reply_type: text
+  text: "Our mentees usually need help with:"
+  suggestions:
+  - text: "Improving their CV/Profile"
+  - text: "Preparing for interviews"
+  - text: "Completing technical challenges"
+  - text: "Getting a better understanding of the tech industry"
+  - text: "Learning new technologies "
+- reply_type: delay
+  duration: dynamic
+  - reply_type: text
+  text: "Select all the relevant ones."
