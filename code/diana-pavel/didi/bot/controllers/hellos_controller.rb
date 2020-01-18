@@ -15,8 +15,6 @@ class HellosController < BotController
       step_to flow: 'mentor' state: "mentor_onboarding"
     else current_message.message == 'Mentee'
       step_to flow: 'mentee' state: "mentee_onboarding"
-    elsif current_message.message == 'Both'
-      step_to flow: 'both' state: "both_onboarding"
     end
   end
 end

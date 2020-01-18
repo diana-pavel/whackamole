@@ -8,7 +8,6 @@ class FlowMap
     state :get_type, fails_to: :ask_type
   end
 
-
   #do I need fails_to here? and if I did, what would it be?
 
   flow :mentor do
@@ -17,10 +16,6 @@ class FlowMap
 
   flow :mentee do
     state :mentee_onboarding
-  end
-
-  flow :both
-    state :both_onboarding
   end
 
   flow :goodbye do
